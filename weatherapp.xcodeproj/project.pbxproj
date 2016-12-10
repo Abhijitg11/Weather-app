@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F30548A1DF1243000B91132 /* WaeatherTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3054891DF1243000B91132 /* WaeatherTableViewController.m */; };
 		3F86A03C1DEFD499009A2056 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F86A03B1DEFD499009A2056 /* main.m */; };
 		3F86A03F1DEFD499009A2056 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F86A03E1DEFD499009A2056 /* AppDelegate.m */; };
 		3F86A0421DEFD499009A2056 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F86A0411DEFD499009A2056 /* ViewController.m */; };
@@ -14,6 +15,7 @@
 		3F86A0471DEFD499009A2056 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F86A0461DEFD499009A2056 /* Images.xcassets */; };
 		3F86A04A1DEFD499009A2056 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F86A0481DEFD499009A2056 /* LaunchScreen.xib */; };
 		3F86A0561DEFD499009A2056 /* weatherappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F86A0551DEFD499009A2056 /* weatherappTests.m */; };
+		3F86A0601DEFEEA3009A2056 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F86A05F1DEFEEA3009A2056 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F3054881DF1243000B91132 /* WaeatherTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaeatherTableViewController.h; sourceTree = "<group>"; };
+		3F3054891DF1243000B91132 /* WaeatherTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaeatherTableViewController.m; sourceTree = "<group>"; };
 		3F86A0361DEFD499009A2056 /* weatherapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weatherapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F86A03A1DEFD499009A2056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F86A03B1DEFD499009A2056 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +44,7 @@
 		3F86A04F1DEFD499009A2056 /* weatherappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weatherappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F86A0541DEFD499009A2056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F86A0551DEFD499009A2056 /* weatherappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weatherappTests.m; sourceTree = "<group>"; };
+		3F86A05F1DEFEEA3009A2056 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F86A0601DEFEEA3009A2056 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +69,7 @@
 		3F86A02D1DEFD499009A2056 = {
 			isa = PBXGroup;
 			children = (
+				3F86A05F1DEFEEA3009A2056 /* MapKit.framework */,
 				3F86A0381DEFD499009A2056 /* weatherapp */,
 				3F86A0521DEFD499009A2056 /* weatherappTests */,
 				3F86A0371DEFD499009A2056 /* Products */,
@@ -83,6 +90,8 @@
 			children = (
 				3F86A03D1DEFD499009A2056 /* AppDelegate.h */,
 				3F86A03E1DEFD499009A2056 /* AppDelegate.m */,
+				3F3054881DF1243000B91132 /* WaeatherTableViewController.h */,
+				3F3054891DF1243000B91132 /* WaeatherTableViewController.m */,
 				3F86A0401DEFD499009A2056 /* ViewController.h */,
 				3F86A0411DEFD499009A2056 /* ViewController.m */,
 				3F86A0431DEFD499009A2056 /* Main.storyboard */,
@@ -219,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F30548A1DF1243000B91132 /* WaeatherTableViewController.m in Sources */,
 				3F86A0421DEFD499009A2056 /* ViewController.m in Sources */,
 				3F86A03F1DEFD499009A2056 /* AppDelegate.m in Sources */,
 				3F86A03C1DEFD499009A2056 /* main.m in Sources */,
@@ -418,6 +428,7 @@
 				3F86A05B1DEFD499009A2056 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F86A05C1DEFD499009A2056 /* Build configuration list for PBXNativeTarget "weatherappTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +437,7 @@
 				3F86A05E1DEFD499009A2056 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
